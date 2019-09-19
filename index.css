@@ -86,3 +86,7 @@ td {
 .transaction:nth-child(odd) {
   background: #566246;
 }
+
+.balance{
+  color: #A4C2A5;
+}
