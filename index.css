@@ -1,0 +1,88 @@
+
+/* 
+#4A4A48 dark-gray
+#566246 dark-green
+#A4C2A5 light-green
+#D8DAD3 gray
+#F1F2EB light-gray
+*/
+
+* {
+  font-family: 'Trebuchet MS';
+  background:#4A4A48;
+  color: #F1F2EB;
+  padding: 0;
+  margin: 0;
+}
+
+#login-inputs-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: initial;
+  align-items: center;
+}
+
+.login {
+  margin: 10px;
+  font-size: 30px;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  padding:20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin:20px;
+}
+
+.button {
+  border: #D8DAD3 2px solid;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+#accounts-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li, li>a {
+  margin:10px;
+  list-style-type: none;
+}
+
+.balance-container {
+  display: flex;
+}
+
+table {
+  margin: 20px;
+}
+
+td {
+  width: 300px;
+  background:none;
+}
+
+.transaction:nth-child(even) {
+  background: #A4C2A5;
+}
+
+.transaction:nth-child(odd) {
+  background: #566246;
+}
