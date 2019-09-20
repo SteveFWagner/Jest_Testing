@@ -70,6 +70,10 @@ li, li>a {
   display: flex;
 }
 
+.account-number-container{
+  margin:20px;
+}
+
 table {
   margin: 20px;
 }
